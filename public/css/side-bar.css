@@ -1,0 +1,25 @@
+.s-option ul li a.active,.s-option ul li ul li a.active{
+    font-weight: bold;
+}
+.sub-menu{
+    margin-left: 10px;
+    display: none;
+}
+
+/*
+#locationsList li{ display:block; }
+*/
+#loadMore {
+    color:green;
+    cursor:pointer;
+}
+#loadMore:hover {
+    color:black;
+}
+#showLess {
+    color:red;
+    cursor:pointer;
+}
+#showLess:hover {
+    color:black;
+}

@@ -1,0 +1,356 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
+
+.add-post {
+  margin-left: .2rem;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+  padding: 0.3rem .5rem;
+  border-radius: 5px;
+  /* border-top-left-radius: 0; */
+  /* border-top-right-radius: 0; */
+}
+
+.prev-img{
+  background-image: url("default-placeholder-150x150.png");
+  background-color: #eee;
+  display: flex;
+  height: 150px;
+  margin: 5px;
+  width: 150px;
+}
+
+.image-placeholder > h4 {
+  align-self: center;
+  text-align: center;
+  width: 100%;
+}
+
+.prev-img img{
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.input-files input[type="file"] {
+  position: absolute;
+  bottom: 50px;
+  left: 16px;
+  width: 92%;
+  opacity: 0;
+}
+
+.input-files .custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background: #ff8a37;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.input-files .remImg{
+  position: absolute;
+  right: 40px;
+}
+
+.upimg{
+  border: 1px dashed #ccc;
+}
+
+#ad-upload-form .form-control[readonly]{
+  background: #fff;
+  border: none;
+}
+
+#ad-upload-form .form-control:focus{
+  outline-width: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.phone-nums{
+  background: #fff;
+  border: none;
+}
+
+.phone-nums:focus{
+  outline-width: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.e_phone-remove {
+  color: #c50a0a;
+  float: right;
+}
+
+.remove-num{
+  color: #c50a0a;
+}
+
+.gray{
+  background: #E7EDEE;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.adz-more-info em{
+  display: block;
+  margin-top: 20px;
+  color: #2d2929;
+  font-size: 16px;
+}
+
+.more-detail p {
+  font-size: 14px !important;
+}
+
+.show-container{
+  background: #FFFFFF;
+  box-shadow: 0 3px 0 0 #d5e1e6;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.edit-img-preview{
+  border: 1px dashed #ccc;
+}
+
+.edit-img-preview a{
+  float: right;
+}
+
+.edit-img-preview .remImg {
+  position: absolute;
+  right: 40px;
+}
+
+
+/* 
+    Created on : Feb 27, 2018, 1:05:45 PM
+    Author     : WEB
+    Description: My Ad template
+*/
+
+.my-add-box .alert-secondary
+{
+    background: #f3f6f5;
+    border: none;
+    font-size: 18px;
+}
+.my-add-box .badge-light 
+{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+.my-ads .alert-warning h3
+{
+    color: #b4352d;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.my-ads .alert-warning
+{
+    border: 1px solid #b4352d;
+}
+.adr-mid img
+{
+    margin-right: 20px;
+    margin-left: 15px;
+    float: left;
+}
+.ad-wrong-box
+{
+    border-top: 1px solid #d5dfda;
+    border-bottom: 1px solid #d5dfda;
+    border-right: 1px solid #d5dfda;
+    border-left: 3px solid #d95e46; 
+    border-radius: 5px;
+    box-shadow: 0 2px 0 0 #d5e1e6;
+}
+.adr-top p
+{
+    border-bottom: 1px solid #d5dfda;
+    padding: 15px 5px 15px 15px;
+}
+.adr-mid
+{
+    padding: 15px;
+}
+.adr-bot
+{
+    padding: 15px;
+    margin-left: 15px;
+}
+.ad-edit-btn
+{
+    width: 100px;
+    float: left !important;
+}
+.ad-delete-btn
+{
+    width: 100px;
+    float: left !important;
+}
+.adr-bot p
+{
+    color: #d95e46;
+    font-weight: bold;
+    font-size: 14px;
+}
+.s-box
+{
+    float: left;
+    margin-right: 15px;
+}
+.m-ad-4
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.m-ad-4 a
+{
+    float: right;
+}
+.publish-ad-box p
+{
+    float: left;
+    width: 100%;
+}
+.publish-ad-box h4
+{
+    float: left;
+    width: 100%;
+}
+.pbox-1
+{
+    font-weight: bold !important;
+    font-size: 17px !important;
+    float: left;
+    width: 100%;
+}
+.pbox-2
+{
+    margin-bottom: 5px;
+}
+.publish-ad-box .fa-eye
+{
+    color: #FF8C00;
+}
+.promo-box
+{
+    text-align: right;
+}
+.publish-ad-box
+{
+    box-shadow: 0 2px 0 0 #d5e1e6;
+    margin-bottom: 20px !important;
+}
+.other-filters label {
+  margin-bottom: .1rem;
+  font-size: 14px;
+}
+.other-filters a {
+  font-size: 14px;
+}
+
+.adz-contact i{
+  font-size: 25px;
+  color: white;
+  background: #e07f0a;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10%;
+}
+
+.breadcrumbs a, .breadcrumbs b{
+  font-size: 14px;
+} 
+
+#filterAdsByAttributes .form-group{
+  font-size: 14px;
+}
+
+#loadMoreLocations {
+  color: green;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.gtm-show-number-button{
+  background: none; 
+  border: none; 
+  cursor: pointer;
+  text-align: left;
+  color: #e07f0a;
+  font-size: 15px;
+}
+
+.gtm-show-number-button h4{
+  font-size: 20px;
+  margin: 0;
+}
+
+/*.gtm-show-number-button p{
+  padding-left: 0; color: #707676;
+}*/
+
+.gtm-show-number-button:hover{
+  color: #007bff;
+}
+
+.gtm-show-number-button:focus{
+  outline: none;
+}
+
+.nav-item a {
+  color : #000;
+}
+/*.gtm-show-number{
+  font-size: 30px;
+  /*display: block;*
+  float: left;
+  margin-bottom: 5px;
+}*/
+
+@media only screen and (max-width: 500px) {
+    .adr-bot p {
+        float: left;
+        margin-top: 20px;
+    }
+}
